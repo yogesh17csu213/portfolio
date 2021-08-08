@@ -3,7 +3,9 @@ import emoji from "react-easy-emoji";
 import googlelogo from "./assets/img/icons/common/google.svg";
 import github from "./assets/img/icons/common/github.svg";
 import airbnb from "./assets/img/icons/common/airbnbLogo.png";
-
+import iwell  from "./assets/img/iwell2.jpg"
+import career from "./assets/img/careers30.jpeg"
+import pie from "./assets/img/pie.png"
 export const greetings = {
 	name: "Yogesh Sharma",
 	title: "Hi all, I'm Yogesh",
@@ -160,48 +162,51 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: googlelogo,
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
+		role: "Software Developer",
+		company: "Careers360",
+		companylogo: career,
+		date: "July 2021 – Present",
+		desc: "Here i am working on a Edu-tech platform. This platform provides student to prepare for different types of entrance exams and they can give mock tests too. My role is to create and add features in react with maintaining its state through redux.",
+	}
+	,
 	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: github,
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Software Engineer Intern",
+		company: "Investwell",
+		companylogo: iwell,
+		date: "Jan 2021 – July 2021",
+		desc: "I had experience of the Fin-tech platfrom here. I was working on the project MINT. Its sole purpose was to handle the all amount of data for broker and help him to handle his clients so that they can invest in shares and mutual funds smoothly.",
+		// descBullets: [
+		// 	"",
+		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+		// ],
 	},
 	{
 		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: airbnb,
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		company: "Pie Info Systems",
+		companylogo: pie,
+		date: "May 2020 – August 2020",
+		desc: "My role here was to develop the UI of an Educational Training Platform of IIT Delhi Nano-Tech Department Here i was having more  HTML and CSS part.",
 	},
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "Spotify Clone",
+		desc: "Here i have tried to make a clone of Spotify using the third party api of Spotify for developers.",
+		github: "https://github.com/yogesh17csu213",
+		link: "https://github.com/yogesh17csu213/SpotifyCloneReact",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		name: "Product-App",
+		desc: "It was my first project in react. It is basically have a crud functionality only. But i have learned new concepts by using Redux Hooks and Redux Form with React JS here.",
 		github: "https://github.com/yogesh17csu213",
+		link: "https://github.com/yogesh17csu213/ProductApp",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+		name: "React-Mail",
+		desc: "Here i was trying to make an E-mailing application like outlook. I tried to implement basic functionalities of storing, viewing and deleting email in 4-5 hrs from scratch.",
 		github: "https://github.com/yogesh17csu213",
-		link: "https://example.com",
+		link: "https://github.com/yogesh17csu213/react-mail",
 	},
 ];
 
