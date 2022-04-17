@@ -103,11 +103,27 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "React JS", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "95", //Insert relative proficiency in percentage
+	},
+	{
+		Stack: "Next JS",
+		progressPercentage: "90",
+	},
+	{
+		Stack: "Node JS",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Redux",
 		progressPercentage: "90",
+	},
+	{
+		Stack: "Django",
+		progressPercentage: "70",
+	},
+	{
+		Stack: "MySQL",
+		progressPercentage: "70",
 	},
 	{
 		Stack: "HTML",
@@ -116,10 +132,6 @@ export const SkillBars = [
 	{
 		Stack: "CSS/SCSS",
 		progressPercentage: "75",
-	},
-	{
-		Stack: "Node JS",
-		progressPercentage: "65",
 	},
 	{
 		Stack: "Programming in JAVA",
@@ -190,6 +202,12 @@ export const experience = [
 ];
 
 export const projects = [
+	{
+		name: "Corona Tracker",
+		desc: "I have used the data from goverment site by WebScarpping in Node Js and implemented Redis Cache on Api for one day. In frontend i have used next js and implemented both client side and server side rendering with customized routing.",
+		github: "https://github.com/yogesh17csu213/corona-tracker",
+		link: "http://13.235.0.113/",
+	},
 	{
 		name: "Spotify Clone",
 		desc: "Here i have tried to make a clone of Spotify using the third party api of Spotify for developers.",

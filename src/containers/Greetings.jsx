@@ -14,12 +14,17 @@ import {
 
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "components/SocialLinks";
-
+import { useHistory } from "react-router-dom";
 const Greetings = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
   })
+  const history=useHistory()
+  const showResume=()=>{
+    history.push('/resume')
+  }
+
   return ( 
     <Fade top duration={1000} distance="40px">
         <main ref="main">
@@ -49,7 +54,8 @@ const Greetings = () => {
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
-                          href={greetings.resumeLink}
+                          // href={greetings.resumeLink}
+                          onClick={()=>{showResume()}}
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-file" />

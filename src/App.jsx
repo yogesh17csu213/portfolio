@@ -10,7 +10,7 @@ import Experience from "./containers/Experience";
 import Projects from "./containers/Projects";
 import GithubProfile from "./containers/GithubProfile";
 import Feedbacks from "./containers/Feedbacks";
-
+import Resume from './components/Resume'
 const App = () => {
 	return (
 		<BrowserRouter>
@@ -29,6 +29,15 @@ const App = () => {
 							{/* <Feedbacks /> */}
 							<Projects />
 							<GithubProfile />
+						</>
+					)}
+				/>
+				<Route
+					path="/resume"
+					exact
+					render={(props) => (
+						<>
+						<Resume />
 						</>
 					)}
 				/>
